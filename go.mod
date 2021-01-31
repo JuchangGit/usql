@@ -26,7 +26,7 @@ require (
 	github.com/btnguyen2k/consu/semita v0.1.5 // indirect
 	github.com/btnguyen2k/gocosmos v0.1.3
 	github.com/buger/jsonparser v1.1.1 // indirect
-	github.com/couchbase/go-couchbase v0.0.0-20201216133707-c04035124b17 // indirect
+	github.com/couchbase/go-couchbase v0.0.0-20210127182732-79a37d8be9d0 // indirect
 	github.com/couchbase/go_n1ql v0.0.0-20160215142504-6cf4e348b127
 	github.com/couchbase/goutils v0.0.0-20210118111533-e33d3ffb5401 // indirect
 	github.com/denisenkom/go-mssqldb v0.9.0
@@ -105,8 +105,6 @@ require (
 	sqlflow.org/gohive v0.0.0-20200521083454-ed52ee669b84
 	sqlflow.org/gomaxcompute v0.0.0-20200410041603-30fa752b7593
 )
-
-replace github.com/couchbase/go-couchbase v0.0.0-20201216133707-c04035124b17 => github.com/kenshaw/go-couchbase v0.0.0-20210104231425-ee71e5a22c59
 
 replace github.com/btnguyen2k/gocosmos v0.1.3 => github.com/kenshaw/gocosmos v0.1.4-0.20210105064112-ccf71873706d
 
